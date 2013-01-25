@@ -1,0 +1,49 @@
+{
+    "superlabs": [
+        {
+            "isNew": false,
+            "cooks": [
+                {
+                    "name": "Walt"
+                },
+                {
+                    "name": "Jessy"
+                }
+            ],
+            "state": "WI",
+            "city": "NewMexico",
+            "product": "Blue ice"
+        },
+        {
+            "isNew": true,
+            "cooks": [
+                {
+                    "name": "Todd"
+                },
+                {
+                    "name": "Muhammad"
+                },
+                {
+                    "name": "Adrian"
+                }
+            ],
+            "state": "WI",
+            "city": "Brookfield",
+            "product": "Peanut brittle"
+        },
+        {
+            "isNew": false,
+            "cooks": [
+                {
+                    "name": "Jessy"
+                },
+                {
+                    "name": "Gale"
+                }
+            ],
+            "state": "WI",
+            "city": "Miami",
+            "product": "Chilli P"
+        }
+    ]
+}
