@@ -14,11 +14,11 @@ public class CookMatcher implements Predicate<Map<String, Object>> {
 
     public CookMatcher(Criteria criteria) {
         this.criteria = criteria;
+        validate();
     }
 
     @Override
     public boolean apply(Map<String, Object> cooks) {
-        validate();
         return criteria.matches(cooks);
     }
 
